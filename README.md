@@ -1,5 +1,3 @@
-<h3 align="center">Brazilian Developer</h3>
-
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 - [Como armazenar credenciais como uma chave de api no Rails](https://dev.to/ga9br1/como-armazenar-credencials-como-uma-chave-de-api-no-rails-2432)
