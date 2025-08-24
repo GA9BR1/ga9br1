@@ -1,7 +1,7 @@
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [Como armazenar credenciais como uma chave de api no Rails](https://forem.com/ga9br1/como-armazenar-credencials-como-uma-chave-de-api-no-rails-2432)
-- [How to store credentials like an api key in Rails](https://forem.com/ga9br1/how-to-store-credentials-like-an-api-key-in-rails-4lmc)
+- [Como armazenar credenciais como uma chave de api no Rails](https://dev.to/ga9br1/como-armazenar-credencials-como-uma-chave-de-api-no-rails-2432)
+- [How to store credentials like an api key in Rails](https://dev.to/ga9br1/how-to-store-credentials-like-an-api-key-in-rails-4lmc)
 - [Como fazer deploy de uma API Maven, SpringBoot, Tomcat no railway.app](https://medium.com/@gustavoalberttodev/como-fazer-deploy-de-uma-api-maven-springboot-tomcat-no-railway-app-8ceecae97b6d?source=rss-db4ff22260ea------2)
 <!-- BLOG-POST-LIST:END -->
 
