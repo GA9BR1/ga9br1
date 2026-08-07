@@ -10,17 +10,12 @@ and APIs that have to hold up under load.
 
 ## Open source
 
-Two solvers at **[Rebase](https://github.com/Rebase-BR)** that I refactored and packaged into
-published gems. The constraint-solving core is mostly [@andregomesb](https://github.com/andregomesb)'s —
-my part was reshaping it into something installable and reusable.
+Refactored and packaged two of **[Rebase](https://github.com/Rebase-BR)**'s internal solvers into published
+gems. The solving core is mostly [@andregomesb](https://github.com/andregomesb)'s — my part was making it
+installable and reusable.
 
-**[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · [16k downloads](https://rubygems.org/gems/csp-resolver)
-Solves [Constraint Satisfaction Problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem): you declare variables, domains and the
-constraints between them, and it finds an assignment that satisfies all of them.
-
-**[sports-manager](https://github.com/Rebase-BR/sports-manager)** · [14k downloads](https://rubygems.org/gems/sports-manager)
-Tournament scheduling on top of `csp-resolver` — court availability, match length, rest
-windows and participant constraints resolved into a calendar.
+- **[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · [16k downloads](https://rubygems.org/gems/csp-resolver) — declare variables, domains and the constraints between them; it finds an assignment that satisfies all of them.
+- **[sports-manager](https://github.com/Rebase-BR/sports-manager)** · [14k downloads](https://rubygems.org/gems/sports-manager) — tournament scheduling on top of it: courts, match length, rest windows, availability.
 
 ---
 
