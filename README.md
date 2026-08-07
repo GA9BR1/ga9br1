@@ -1,9 +1,10 @@
 # Gustavo Alberto
 
-**Backend engineer — Ruby and Elixir.** Goiânia, Brazil.
+**Software engineer.** Goiânia, Brazil.
 
-I work on the parts users never see: constraint solvers, message-driven services,
-background pipelines, and APIs that have to hold up under load.
+I pick the language after I understand the problem, not before. What stays constant is
+the kind of work: constraint solvers, message-driven services, background pipelines,
+and APIs that have to hold up under load.
 
 ---
 
@@ -56,11 +57,13 @@ or result date, with pagination.
 
 ---
 
-## Stack
+## Shipped with
+
+Reached for when the problem called for it — not a ranking, and not a fixed set.
 
 | | |
 |---|---|
-| **Languages** | Ruby · Elixir · TypeScript · Dart · Python · SQL |
+| **Languages** | Ruby · Elixir · TypeScript · Dart · Python · Java · SQL |
 | **Backend** | Rails · Phoenix · Sinatra · Fastify · GraphQL · Sidekiq · Sneakers · RabbitMQ |
 | **Data** | PostgreSQL · Redis · PgBouncer · MySQL |
 | **Frontend** | React · Vue · Flutter |
@@ -71,5 +74,3 @@ or result date, with pagination.
 ## Elsewhere
 
 [LinkedIn](https://linkedin.com/in/gustavoalbertodev) · [dev.to](https://dev.to/ga9br1) · [Medium](https://medium.com/@gustavoalberttodev)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ga9br1&layout=compact&hide_border=true&langs_count=8" alt="Most used languages" />
