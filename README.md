@@ -10,27 +10,17 @@ and APIs that have to hold up under load.
 
 ## Open source
 
-Core contributor to two gems at **[Rebase](https://github.com/Rebase-BR)**, both published
-and running in other people's code:
+Two solvers at **[Rebase](https://github.com/Rebase-BR)** that I refactored and packaged into
+published gems. The constraint-solving core is mostly [@andregomesb](https://github.com/andregomesb)'s —
+my part was reshaping it into something installable and reusable.
 
-**[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · 48 commits · [16k downloads](https://rubygems.org/gems/csp-resolver)
+**[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · [16k downloads](https://rubygems.org/gems/csp-resolver)
 Solves [Constraint Satisfaction Problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem): you declare variables, domains and the
 constraints between them, and it finds an assignment that satisfies all of them.
 
-**[sports-manager](https://github.com/Rebase-BR/sports-manager)** · 37 commits · [14k downloads](https://rubygems.org/gems/sports-manager)
+**[sports-manager](https://github.com/Rebase-BR/sports-manager)** · [14k downloads](https://rubygems.org/gems/sports-manager)
 Tournament scheduling on top of `csp-resolver` — court availability, match length, rest
 windows and participant constraints resolved into a calendar.
-
----
-
-## Also here
-
-Challenges and side projects. No users but me — here for the code, not the impact.
-
-- **[insurance_flow](https://github.com/GA9BR1/insurance_flow)** — policy issuing split across a GraphQL gateway, a REST API and a web app, wired over RabbitMQ.
-- **[e-teg-challenge](https://github.com/GA9BR1/e-teg-challenge)** — client onboarding through single-use form links. TypeScript monorepo, `docker compose up` and it runs.
-- **[rinha-de-backend-2024-q1](https://github.com/GA9BR1/rinha-de-backend-2024-q1)** — my entry for the Rinha de Backend load test.
-- **[medical_exams_csv](https://github.com/GA9BR1/medical_exams_csv)** — async CSV ingestion, with a UI that updates as jobs finish.
 
 ---
 
