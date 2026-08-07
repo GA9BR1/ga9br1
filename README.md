@@ -10,40 +10,27 @@ and APIs that have to hold up under load.
 
 ## Open source
 
-Core contributor to two Ruby libraries at **[Rebase](https://github.com/Rebase-BR)**:
+Core contributor to two gems at **[Rebase](https://github.com/Rebase-BR)**, both published
+and running in other people's code:
 
-**[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · *48 commits*
-A gem for solving [Constraint Satisfaction Problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) — you declare variables, domains and
-the constraints between them, and it finds an assignment that satisfies all of them.
-Used for scheduling, planning, and configuring systems with hard rules.
+**[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · 48 commits · [16k downloads](https://rubygems.org/gems/csp-resolver)
+Solves [Constraint Satisfaction Problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem): you declare variables, domains and the
+constraints between them, and it finds an assignment that satisfies all of them.
 
-**[sports-manager](https://github.com/Rebase-BR/sports-manager)** · *37 commits*
-Tournament scheduling built on top of `csp-resolver`. Turns court availability, match
-length, rest windows and participant constraints into a calendar that actually works.
+**[sports-manager](https://github.com/Rebase-BR/sports-manager)** · 37 commits · [14k downloads](https://rubygems.org/gems/sports-manager)
+Tournament scheduling on top of `csp-resolver` — court availability, match length, rest
+windows and participant constraints resolved into a calendar.
 
 ---
 
-## Selected projects
+## Also here
 
-**[insurance_flow](https://github.com/GA9BR1/insurance_flow)** — `Rails` `GraphQL` `RabbitMQ` `Sneakers` `Sinatra` `Postgres` `Docker`
-Vehicle insurance policy issuing, split across three services: a GraphQL gateway that
-validates and authorizes, a REST API that owns the policy data, and a web app with three
-auth paths (Cognito, Google OAuth, email/password) — all wired over RabbitMQ, JWT-authenticated
-end to end. One `docker compose up` brings the whole thing up.
+Challenges and side projects. No users but me — here for the code, not the impact.
 
-**[e-teg-challenge](https://github.com/GA9BR1/e-teg-challenge)** — `TypeScript` `React` `Fastify` `Prisma` `Postgres` `Docker`
-Client onboarding through single-use form links, with an admin panel to issue links, read
-responses and manage theming. TypeScript monorepo, containerized end to end: `docker compose up`
-runs migrations and seeds on its own. Unit, integration and browser E2E tests all run in-container.
-
-**[rinha-de-backend-2024-q1](https://github.com/GA9BR1/rinha-de-backend-2024-q1)** — `Ruby` `Agoo` `Postgres` `PgBouncer` `Nginx`
-A concurrency gauntlet. Ruby on the Agoo web server, PgBouncer pooling in front of Postgres,
-Nginx balancing — built to survive the Rinha de Backend load test and profiled with Gatling.
-
-**[medical_exams_csv](https://github.com/GA9BR1/medical_exams_csv)** — `Ruby` `Sidekiq` `Vue` `Postgres` `Docker`
-Bulk medical-exam ingestion. CSV uploads are queued to Sidekiq and processed asynchronously;
-the UI polls job status and folds new records in without a page reload. Search by token, CPF
-or result date, with pagination.
+- **[insurance_flow](https://github.com/GA9BR1/insurance_flow)** — policy issuing split across a GraphQL gateway, a REST API and a web app, wired over RabbitMQ.
+- **[e-teg-challenge](https://github.com/GA9BR1/e-teg-challenge)** — client onboarding through single-use form links. TypeScript monorepo, `docker compose up` and it runs.
+- **[rinha-de-backend-2024-q1](https://github.com/GA9BR1/rinha-de-backend-2024-q1)** — my entry for the Rinha de Backend load test.
+- **[medical_exams_csv](https://github.com/GA9BR1/medical_exams_csv)** — async CSV ingestion, with a UI that updates as jobs finish.
 
 ---
 
@@ -54,20 +41,6 @@ or result date, with pagination.
 - [How to store credentials like an api key in Rails](https://dev.to/ga9br1/how-to-store-credentials-like-an-api-key-in-rails-4lmc)
 - [Como fazer deploy de uma API Maven, SpringBoot, Tomcat no railway.app](https://medium.com/@gustavoalberttodev/como-fazer-deploy-de-uma-api-maven-springboot-tomcat-no-railway-app-8ceecae97b6d?source=rss-db4ff22260ea------2)
 <!-- BLOG-POST-LIST:END -->
-
----
-
-## Shipped with
-
-Reached for when the problem called for it — not a ranking, and not a fixed set.
-
-| | |
-|---|---|
-| **Languages** | Ruby · Elixir · TypeScript · Dart · Python · Java · SQL |
-| **Backend** | Rails · Phoenix · Sinatra · Fastify · GraphQL · Sidekiq · Sneakers · RabbitMQ |
-| **Data** | PostgreSQL · Redis · PgBouncer · MySQL |
-| **Frontend** | React · Vue · Flutter |
-| **Infra** | Docker · Nginx · Linux · GitHub Actions · Grafana |
 
 ---
 
