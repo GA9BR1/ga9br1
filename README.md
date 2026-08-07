@@ -10,10 +10,6 @@ and APIs that have to hold up under load.
 
 ## Open source
 
-Refactored and packaged two of **[Rebase](https://github.com/Rebase-BR)**'s internal solvers into published
-gems. The solving core is mostly [@andregomesb](https://github.com/andregomesb)'s — my part was making it
-installable and reusable.
-
 - **[csp-resolver](https://github.com/Rebase-BR/csp-resolver)** · [16k downloads](https://rubygems.org/gems/csp-resolver) — declare variables, domains and the constraints between them; it finds an assignment that satisfies all of them.
 - **[sports-manager](https://github.com/Rebase-BR/sports-manager)** · [14k downloads](https://rubygems.org/gems/sports-manager) — tournament scheduling on top of it: courts, match length, rest windows, availability.
 
